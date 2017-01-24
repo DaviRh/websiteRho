@@ -1,0 +1,154 @@
+{margin:0;padding:0;}
+
+
+body {background-image:url( img/321927.jpg );
+      background-attachment:fixed;
+     }
+.container {
+ }
+.header{height: 180px;background-color:white;color:white;font-size:40px ;}
+h1{text-align: center;font-weight:bold;font-family:arial,serif; padding:13px;color:#228B22;}
+.logo{ position: absolute;
+ top: 20px;
+ left: 20px;}
+.motto {position: absolute;
+ top: 70px;
+ left: 400px}
+
+/*menu*/
+.menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+.menu li {
+        border-top: 2px solid orange;
+	position: relative;
+	float: left;
+	width: 25%;
+	text-align: center;
+	list-style: none;
+}
+
+.menu li a {
+    border-top: none;
+	background-color: white;
+	color: orange;
+	padding: 15px 20px;
+	text-decoration: none;
+	display: block;
+	
+}
+
+.menu li a:hover {
+        color: white;
+	background-color: orange;
+	
+}
+.menu li ul li{
+border-top: none;}
+.menu ul ul {
+    border: none;
+	position: absolute;
+	top: 48px;
+	
+	visibility: hidden;
+}
+.menu ul ul li{width: 100%}
+.menu ul li ul{width: 100%}
+.menu ul li:hover ul {
+    border-top: none;
+	visibility: visible;
+}
+
+.menu ul ul:hover {
+	box-shadow: 0px 20px 30px orange;
+	border-top: none;
+}
+
+.menu ul ul li a {
+	background-color:white;
+	border-top: none;
+}
+
+.menu ul ul li a:hover {
+        color: white;
+	background-color: orange;
+}
+/*menu*/
+/*questionario*/
+.form-title{
+margin-bottom:10px
+color: #725129;
+
+font-weight:bold;}
+.desc{
+background:white;
+color:orange;
+border: 2px solid orange;
+padding:20px;
+width:320px;
+height:700px;
+position:relative;
+top:200px;
+left:750px;
+font-size:30px;}
+.dop {height:200px;width:200px}
+.form-container{
+background-image:url("img/arancia1.jpg");
+background-repeat: no-repeat;
+border: 2px solid orange;
+padding:20px;
+width:320px;
+height:700px;
+position:absolute;
+top :380px;
+left:160px}
+.ff {
+border:2px solid black;
+background: orange;
+
+padding:8px;
+margin-bottom:20px;
+width:280px;
+color:white;}
+.ff:focus{
+background: #fff;
+color: orange;}
+
+
+.sub{
+border: 1px solid #447314;
+background: orange;
+color: white;
+padding:8.5px 18px;
+font-size: 14px;
+font-weight:bold;
+vertical-align: middle;}
+.sub:hover{
+color:black;background-color:green;
+}
+.reset{border: 1px solid #447314;
+background: orange;
+color: white;
+padding:8.5px 18px;
+font-size: 14px;
+font-weight:bold;
+vertical-align: middle;}
+.reset:hover{
+background-color: red;color:black;}
+/*questionario*/
+
+
+.footer {position:relative;top:460px;width: 100%;background-color:orange; color:black;
+border-top:2px solid white;} 
+.footer img{position:relative; top:-50px; left:750px}
+.footer li {border-top:none;position:relative;left:450px;top:-50px;width:100px}
+.footer ol a {border-top:none;color:black;background-color:orange
+;}
+.footer ol a:hover {color:white;border-bottom:2px solid white;}
+.footer h3{position:relative;left:150px;top:20px}
+.footer p{position:relative;left:390px;top:130px;}
+
+
+html,body{margin: 0;padding:0}
